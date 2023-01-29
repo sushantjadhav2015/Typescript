@@ -7,7 +7,7 @@ class Person {
 
   growOld = () => {
     this._age++;
-  }; // growOld is method which is converted into property by using arrow fuction because by using normal method as growOld() it cant access at output.
+  }; //TODO growOld is method which is converted into property by using arrow fuction because by using normal method as growOld() it cant access at output.
 
   age() {
     return this._age;
