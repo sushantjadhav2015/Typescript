@@ -1,4 +1,4 @@
-//TODO.. Try to create salary calculation for full time employee and contracter employee
+// TODO.. Try to create salary calculation for full time employee and contracter employee
 
 abstract class Employee {
   name: string;
@@ -29,6 +29,7 @@ class Contractor extends Employee {
     return this.paymentPerHour * this.hoursOfWorking;
   }
 }
+
 
 class FullTimeEmployee extends Employee {
   // parameterised contructor

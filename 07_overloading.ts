@@ -1,3 +1,6 @@
+//TODO 2. Polymorphism - method overriding
+
+
 //  function / method overloading same name with diffrent parametres or arguments
 
 function doubleMe(x: number);

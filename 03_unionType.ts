@@ -3,7 +3,7 @@ var sn: string | number;
 sn = "codemind";
 sn = 100;
 
-//  Union type = ti uses to assign many data type as follows
+//  Union type = it uses to assign many data type as follows
 type Test = string | string[];
 
 function formatCommandLine(input: Test) {
@@ -26,13 +26,12 @@ class Person1 {
   // public fname: string;
   // public age: number;
 
-  // parameterised constructor .
+  // // parameterised constructor .
   // constructor(fname: string, age: number) {
   //     this.fname = fname;
   //     this.age = age;}
-  constructor(public fname: string, public age: number) {}
+  constructor(public fname: string, public age: number){}
 }
-
 const jack = new Person1("Jack", 30);
 console.log(jack.fname, jack.age);
 

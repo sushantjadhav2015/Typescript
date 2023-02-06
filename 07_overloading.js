@@ -1,4 +1,4 @@
-//  function / method overloading same name with diffrent parametres or arguments
+//TODO 2. Polymorphism - method overriding
 function doubleMe(x) {
     if (x && typeof x === "number") {
         console.log(x * 2);
@@ -7,7 +7,7 @@ function doubleMe(x) {
         console.log(x + " " + x);
     }
     else if (Array.isArray(x)) {
-        return x.map(function (name) { return console.log(name); });
+        return x.map(function (name) { return console.log(name); }); // istant of map we can use for of loop also to iterat array
     }
 }
 doubleMe(2); // o/p 2
