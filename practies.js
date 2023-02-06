@@ -1,8 +1,12 @@
-var captcha;
-setInterval(function () {
-    function refreshButtan() {
-        captcha = Math.floor(Math.random() * 9000) + 1000;
+function formatComnad(input) {
+    var line = "";
+    if (typeof input === "string") {
+        line = input.trim();
     }
-    refreshButtan();
-    console.log("current value", captcha);
-}, 1000);
+    else {
+        line = input.map(function (x) { return x.trim(); }).join(" ");
+    }
+    return line;
+}
+console.log(formatComnad(" sushant   "));
+console.log(formatComnad(["sushant", "jadhav"]));
